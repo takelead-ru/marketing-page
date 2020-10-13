@@ -22,7 +22,7 @@ window.subscribeForm = () => {
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({email: this.email}),
+                    body: JSON.stringify({email: this.email, message: 'takelead.ru: Newsletter subscription'}),
                 })
 
                 if (! result.ok) {
