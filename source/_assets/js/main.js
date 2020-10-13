@@ -26,7 +26,7 @@ window.subscribeForm = () => {
                 })
 
                 if (! result.ok) {
-                    throw new Error('Errorrrr')
+                    throw new Error('Error')
                 }
 
                 if (result.success ?? false) {
