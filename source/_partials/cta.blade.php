@@ -6,7 +6,7 @@
                 <p class="text-white">We'll e-mail you with the latest news.</p>
             </div>
 
-            <form x-data="subscribeForm()" x-on:submit.prevent="submit" action="" method="post" class="relative | w-full max-w-sm" netlify>
+            <form x-data="subscribeForm()" x-on:submit.prevent="submit" action="" method="post" class="relative | w-full max-w-sm">
                 <div class="h-12 pl-5 pr-24 bg-white rounded-full | flex justify-between items-center">
                     <label for="email" class="sr-only">Email</label>
                     <input type="email"
