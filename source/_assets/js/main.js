@@ -15,6 +15,7 @@ window.subscribeForm = () => {
 
             try {
                 // TODO: send to https://app.takelead.ru
+                // FIXME: https://github.com/github/fetch/issues/318#issuecomment-249573195
                 const result = await fetch('https://ap2.dev/messages', {
                     method: 'POST',
                     mode: "no-cors",
