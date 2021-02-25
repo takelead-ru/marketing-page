@@ -10,6 +10,7 @@
     <title>{{ $page->title }}</title>
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     <script src="{{ mix('js/main.js', 'assets/build') }}" defer></script>
+    @include('_partials.yandex-metrika')
 </head>
 <body class="antialiased bg-indigo-100 font-sans min-h-screen flex flex-col">
 
